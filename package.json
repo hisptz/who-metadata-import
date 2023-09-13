@@ -1,0 +1,26 @@
+{
+  "name": "metadata-import-app",
+  "version": "1.0.0",
+  "description": "",
+  "license": "BSD-3-Clause",
+  "private": true,
+  "scripts": {
+    "build": "d2-app-scripts build",
+    "start": "dotenv -- cross-var d2-app-scripts start --proxy %DHIS2_PROXY%",
+    "test": "d2-app-scripts test",
+    "deploy": "d2-app-scripts deploy"
+  },
+  "devDependencies": {
+    "@dhis2/cli-app-scripts": "^10.3.10"
+  },
+  "dependencies": {
+    "@dhis2/app-runtime": "^3.9.4",
+    "bootstrap": "^5.3.1",
+    "cross-var": "^1.1.0",
+    "dot-env": "^0.0.1",
+    "dotenv": "^16.3.1",
+    "dotenv-cli": "^7.3.0",
+    "react-bootstrap": "^2.8.0",
+    "react-router-dom": "^6.15.0"
+  }
+}
